@@ -8,6 +8,6 @@ public class CICDController {
 
     @GetMapping("/")
     public String index(){
-        return "<h1>Welcome to GitHub Action World</h1>";
+        return "<h1>이제 수정내용이 잘 배포됩니다</h1>";
     }
 }
